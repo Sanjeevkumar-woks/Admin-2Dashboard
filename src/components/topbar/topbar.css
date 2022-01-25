@@ -1,0 +1,47 @@
+
+.topbarwrapper{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0px;  
+}
+.topLeft{
+    background-color:royalblue;
+    text-align: center;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bold; 
+    width: 182px; 
+    text-align: center;
+    margin-top: 10px;
+}
+.topRight{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+   background-color: whitesmoke;
+   margin-left: auto;
+}
+.iconscomponent{
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.vl {
+    border-left: 1px solid lightslategray;
+    height: 50px;
+  }
+.profile{
+    display: flex;
+    gap: 20px;
+}
+.profileimg{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}

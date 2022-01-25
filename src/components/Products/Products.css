@@ -1,0 +1,26 @@
+h1{
+    margin: 10px 50px;
+    color: slateblue;
+}
+h2{
+    margin: 30px 20px;
+    color: slateblue; 
+}
+
+.table{
+    margin-left: 50px;
+  }
+
+ .addproducts,.editproducts{
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 50%;
+     margin: 50px 200px 0px;
+ }
+ .button{
+     margin: 30px;
+ }
+ 

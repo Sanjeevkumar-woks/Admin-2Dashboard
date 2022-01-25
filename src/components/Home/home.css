@@ -1,0 +1,83 @@
+.display{
+    width:100%
+}
+h1{
+    margin-left: 50px;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.report{
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 100%; 
+}
+h2{
+    margin: 0px;
+    color: black;
+}
+p{
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+.earning-monthly,.earning-annualy,.tasks,.pending{
+    
+    background-color: whitesmoke;
+    height: 100px;
+    width: 425px; 
+    border-radius: 10px;
+    padding-left: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+
+}
+
+.earning-monthly:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .earning-annualy:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .tasks:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pending:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+
+.earning-monthly {
+    border:solid 0.3px royalblue;
+    border-left: solid 5px royalblue;
+    color: royalblue;
+}
+.earning-annualy{
+    border:solid 0.3px green;
+    border-left: solid 5px green;
+    color: green;
+}
+.tasks{
+    border:solid 0.3px skyblue;
+    border-left: solid 5px skyblue;
+    color: skyblue;
+}
+.pending{
+    border:solid 0.3px orangered;
+    border-left: solid 5px orangered;
+    color: orangered;
+}
+.icons{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 30px;
+}
